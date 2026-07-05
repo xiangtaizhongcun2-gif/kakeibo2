@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Yellow circle background -->
+  <circle cx="256" cy="256" r="240" fill="#FFD700"/>
+  <!-- Yen symbol (¥) in darker gold -->
+  <g transform="translate(256, 256)">
+    <!-- Top diagonal lines -->
+    <line x1="-60" y1="-80" x2="0" y2="-20" stroke="#8B7500" stroke-width="28" stroke-linecap="round"/>
+    <line x1="60" y1="-80" x2="0" y2="-20" stroke="#8B7500" stroke-width="28" stroke-linecap="round"/>
+    <!-- Vertical line -->
+    <line x1="0" y1="-20" x2="0" y2="100" stroke="#8B7500" stroke-width="28" stroke-linecap="round"/>
+    <!-- Horizontal lines -->
+    <line x1="-50" y1="20" x2="50" y2="20" stroke="#8B7500" stroke-width="24" stroke-linecap="round"/>
+    <line x1="-50" y1="60" x2="50" y2="60" stroke="#8B7500" stroke-width="24" stroke-linecap="round"/>
+  </g>
+</svg>
