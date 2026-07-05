@@ -8,6 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="家計簿" />
 <meta name="theme-color" content="#2C4A63" />
 <title>家計簿</title>
+<link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><circle cx='256' cy='256' r='256' fill='%23FFD700'/><text x='256' y='320' font-size='200' font-weight='bold' fill='%23B8860B' text-anchor='middle' font-family='serif'>¥</text></svg>" />
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap');
   :root{
@@ -134,7 +135,7 @@
     0%{ transform:scale(2.4) rotate(-18deg); opacity:0; }
     45%{ transform:scale(0.9) rotate(-9deg); opacity:1; }
     60%{ transform:scale(1.06) rotate(-11deg); opacity:1; }
-    78%{ transform:scale(1) rotate(-10deg); opacity:1; }
+    78%{ transform:scale(1) rotate(-11deg); opacity:1; }
     100%{ transform:scale(1) rotate(-10deg); opacity:0; }
   }
   #save-indicator{ position:fixed; top:10px; left:50%; transform:translateX(-50%) translateY(-40px);
@@ -236,7 +237,7 @@
         記録
       </button>
       <button id="nav-history">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
         履歴
       </button>
       <button id="nav-summary">
